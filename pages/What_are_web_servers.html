@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>A Deep Dive Into Web Servers</title>
+        <link rel="stylesheet" href="../web_server.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <div class="links_container">
+                <ul>
+                    <li><a href="../index.html" class="button">Home</a></li>
+                    <li><a href="key_terms.html" class="button">Key Terms</a></li>
+                    <li><a href="What_are_web_servers.html" class="button">What Are Web Servers</a></li>
+                    <li><a href="History_and_future.html" class="button">History and Future</a></li>
+                    <li><a href="Resources.html" class="button">Resources</a></li>
+                    <li><a href="About_the_author.html" class="button">About the Author</a></li>
+                    </ul>
+            </div>
+        </nav>
+        <div class="centered">
+            <h1>What Are Web Servers?</h1>
+            </div>
+            <div class="margin_15">
+                <p style="text-indent: 30px;">
+                    <b>With or without realizing,</b> whenever you access the world wide web, you must communicate with a web server.
+                    For the person who is searching on the internet, or the client, it simply looks like typing a question, name,
+                    or link, and pressing enter. However, your computer cannot make these connections alone. Behind the scenes is
+                    a web server who takes your request and communicates for you. But… what is a web server?
+                </p>
+                <p style="text-indent: 30px;">
+                A web server is just that: a web server. Think of a food server, someone who takes orders and delivers food, but 
+                with websites and applications rather than your drink or meal. A web server is a computer that stores a website’s
+                files and components and works to facilitate the exchange of data. They allow you to access websites, send and 
+                receive emails, and transfer files. Web servers store static HTML documents, text files, images, and videos as 
+                well as more complex dynamic scripts. Videos, images, and files that you see on your computer were kept in a 
+                server and delivered to you, but only upon request. Receiving information from a web server is a two-part process
+                called the request response cycle, beginning with your request and ending with the response.
+            </p>
+            <p style="text-indent: 30px;">
+                The web server has seen vast growth, partially due to it's desire to shorten the distance between servers and users,
+                as proximity can affect latency, or the time it takes data to travel back and forth. This data travels in the form of
+                a hypertext transfer protocol, or, HTTP message, a client-server protocol which follows the request response cycle. A
+                protocol is a set of rules for communication between two computers. Essentially, what this means is that the browser or
+                client speaks one language, the server speaks another language, and they both decide they will communicate in a new,
+                shared language to be able to understand each other. This is the role of internet protocols such as HTTP that web servers
+                depend on. Without a shared language, the server would not understand what the client was asking, and even if it did, the
+                client would not understand the server’s answer. 
+            </p>
+            <p style="text-indent: 30px;">
+            While the request response cycle is typically regarded as a two-step process, these processes are comprised of sub processes.
+            First, the request is handled by the client in the form of a browser. The browser reaches out to a DNS, otherwise known as
+            the internet’s phonebook, to map the URL to a unique IP address, which represents the server’s network address where the 
+            website is hosted. The browser then uses this address to send an HTTP request to the corresponding web server. If the server
+            is found successfully, the server will respond with the website listed at the URL. The server must always respond with a 
+            request, with an error message at the least. The server is a computer complete with an HTTP software in order to process 
+            these requests. Not all servers are the same, however, as they are built to fit a certain type of software, resulting in 
+            variations in their hardware. For example, a server built for image storage will prioritize hard drives and maximize storage 
+            while a server for complex calculations will focus on a quick CPU to maximize the speed of the response. 
+            </p>
+            <p style="text-indent: 30px;">
+                The most widely used open-source web servers are Apache HTTP and Nginx. While different servers can be more beneficial 
+                for different projects, Apache is regarded as the most popular due to its reliability, flexibility, and performance, while
+                Nginx is praised for its high performance and low resource usage. Some of the flexibility shown in Apache as well as Nginx
+                are their ability to now offer a hybrid of hosting both static and dynamic servers. Since the first web server in 1990, the
+                servers have been getting stronger and more adaptive to fit with today’s internet usage. Today, we are seeing a large boost 
+                in AI usage, and it doesn’t seem to be slowing down any time soon. With the demand of AI comes the demand of more and more
+                web servers. 
+            </p>
+            </div>
+            <div class="centered">
+                <!--Required footer -->
+            <footer>
+                <p>Website created as a class project for  
+                <a href=https://ksuweb.github.io/IT3203>IT3203</a></p>
+              </footer>
+        </div>
+    </body>
+</html>
