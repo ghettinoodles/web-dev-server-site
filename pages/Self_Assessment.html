@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>A Deep Dive Into Web Servers</title>
+        <link rel="stylesheet" href="../web_server.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <div class="links_container">
+                <ul>
+                    <li><a href="../index.html" class="button">Home</a></li>
+                    <li><a href="key_terms.html" class="button">Key Terms</a></li>
+                    <li><a href="What_are_web_servers.html" class="button">What Are Web Servers</a></li>
+                    <li><a href="History_and_future.html" class="button">History and Future</a></li>
+                    <li><a href="Resources.html" class="button">Resources</a></li>
+                    <li><a href="About_the_author.html" class="button">About the Author</a></li>
+                    <li><a href="Self_Assessment.html" class="button">Test Your Knowledge!</a></li>
+                    </ul>
+            </div>
+        </nav>
+        <div class="centered">
+            <h1>Test Your Knowledge with a Self Assessment!</h1>
+        </div>
+            <!--Quiz-->
+        <div class="margin_15">
+
+             <!--Single Select-->
+                <h4>Do you need to connect to a web server to search on a browser?</h4>
+            <input type="radio" id="q1c1Btn" name="Question1">
+            <label for="q1c1Btn">Yes</label><br>
+            <input type="radio" id="q1c2Btn" name="Question1">
+            <label for="q1c2Btn">No</label><br>
+
+            <!--Multiple Select-->
+                <h4>For this question, choose multiple answers: Web Servers...</h4>
+            <input type="checkbox" id="q2c1Btn" name="Question2">
+            <label for="q2c1Btn">Transfer files</label><br>
+            <input type="checkbox" id="q2c2Btn" name="Question2">
+            <label for="q2c2Btn">Send and recieve emails </label><br>
+            <input type="checkbox" id="q2c3Btn" name="Question2">
+            <label for="q2c3Btn">Generate answers</label><br>
+            <input type="checkbox" id="q2c4Btn" name="Question2">
+            <label for="q2c4Btn">Store images </label><br>
+            
+
+            <!--Single Select-->
+            <h4>So that the web server can understand, the client sends the web server a(n)...</h4>
+            <input type="radio" id="q3c1Btn" name="Question3">
+            <label for="q3c1Btn">Email</label><br>
+            <input type="radio" id="q3c2Btn" name="Question3">
+            <label for="q3c2Btn">IP address/HTTP request </label><br>
+            <input type="radio" id="q3c3Btn" name="Question3">
+            <label for="q3c3Btn">DNS</label><br>
+            <input type="radio" id="q3c4Btn" name="Question3">
+            <label for="q3c4Btn">Apache/Nginx </label><br>
+            
+
+            <!--Fill in the blank-->
+            <h4>What do we call the cycle that the client-server protocol follows?</h4>
+            <input id="q4txtbox">
+
+
+            <!--Single Select-->
+            <h4>Why do we want to reduce latency?</h4>
+            <input type="radio" id="q5c1Btn" name="Question5">
+            <label for="q5c1Btn">To properly convert DNS to IP.</label><br>
+            <input type="radio" id="q5c2Btn" name="Question5">
+            <label for="q5c2Btn">So the client can understand the web server.</label><br>
+            <input type="radio" id="q5c3Btn" name="Question5">
+            <label for="q5c3Btn">So the web server doesn't get confused.</label><br>
+            <input type="radio" id="q5c4Btn" name="Question5">
+            <label for="q5c4Btn">To get a quicker response.</label><br><br>
+
+            <button type="submit" id="mySubmit">Check my Knowledge</button>
+
+        </div>
+
+            <!--Required footer -->
+            <div class="centered">
+            <footer>
+                <p>Website created as a class project for  
+                <a href=https://ksuweb.github.io/IT3203>IT3203</a></p>
+              </footer>
+        </div>
+        <script src="../quiz.js"></script>
+    </body>
+</html>
