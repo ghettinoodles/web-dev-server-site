@@ -47,10 +47,12 @@ body {
     display: flex;
     gap: 10px;
     flex-direction: row;
+    flex-wrap: wrap;
   }
 
   nav {
-    height: 60px;
+    /*changed to auto for wrapping*/
+    height: auto;
     width: 100%;
     background-color: rgb(73, 73, 80);
   }
@@ -71,3 +73,26 @@ body {
   .bio p {
     font-size: 25px;
   }
+  #mySubmit{
+    font-size:1em;
+  }
+
+  /*Responsive Design*/
+  /*target all screens under this width, this is where my header breaks*/
+  @media (max-width: 1035px) {
+    .button {
+      font-size: 1rem;
+      padding: 7px 10px;
+    }
+
+  }
+  @media (max-width: 966px){
+    .button {
+      font-size: 0.8rem;
+      padding: 5px 8px;
+    }
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+}
